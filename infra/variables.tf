@@ -17,3 +17,8 @@ variable "container_name" {
   type        = string
   description = "Name of the blob container"
 }
+
+variable "subscription_id" {
+  type        = string
+  description = "Your Azure subscription ID"
+}
