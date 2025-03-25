@@ -400,3 +400,12 @@ FodyWeavers.xsd
 *.sln.iml
 
 /data/*
+
+# Terraform state & secrets
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars.backup
+crash.log
+
+terraform.tfvars
